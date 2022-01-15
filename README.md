@@ -4,9 +4,10 @@ The following example describes the process of handling an insurance claim. The 
 
 <img width="971" alt="Screenshot 2022-01-15 at 13 24 37" src="https://user-images.githubusercontent.com/32839252/149626405-99ff199d-f572-4c50-9849-f11edd615d3c.png">
 
-<img width="498" alt="Screenshot 2022-01-15 at 13 27 58" src="https://user-images.githubusercontent.com/32839252/149626412-a802720a-07ac-4ce4-8840-523ffdb52224.png">
+![complex-5](https://user-images.githubusercontent.com/32839252/149626456-43471d30-f3b9-4357-bf56-4cb918fc61d2.png)
 
-<img width="1409" alt="Screenshot 2022-01-15 at 13 30 31" src="https://user-images.githubusercontent.com/32839252/149626419-2ac4f07c-f431-4703-b20f-a813016ecd49.png">
+![complex-6](https://user-images.githubusercontent.com/32839252/149626462-28f7fb55-3aa7-43f4-986d-ea2ab887dc81.png)
+
 
 The case starts when a claim is received. For this claim, a risk is assessed that can be high, medium, or low (F1). Then the knowledge worker can make a decision to accept or reject the claim based on the previously assessed risk (F2). Also, the decision can be to leave the claim in question. For a high risk, the claim can be rejected or in question. For a low risk, the claim can be accepted or in question. If the risk is medium, all decisions are allowed.
 
