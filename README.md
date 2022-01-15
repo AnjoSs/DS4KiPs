@@ -1,1 +1,1 @@
-# Planning-Actions-for-Knowledge-intensive-Processes
+# Planning Actions for Knowledge-intensive Processes
