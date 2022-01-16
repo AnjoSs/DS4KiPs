@@ -1,13 +1,10 @@
 # Planning Actions for Knowledge-intensive Processes
 
-The following example describes the process of handling an insurance claim. The claim can be either disbursed or rejected according to the assessed risk of the claim and expert assessments. It can terminate, once the claim is either disbursed, or the rejection has been sent. The fragments can be senn in \autoref{fig:example:fragments}, while \autoref{fig:example:classes} describes the corresponding data classes, and \autoref{fig:example:olc} describes the data objects states and state transitions.
+The following example describes the process of handling an insurance claim. The claim can be either disbursed or rejected according to the assessed risk of the claim and expert assessments. It can terminate, once the claim is either disbursed, or the rejection has been sent. The fragments, the corresponding data classes, and the data objects life-cycles can be senn below.
 
 <img width="971" alt="Screenshot 2022-01-15 at 13 24 37" src="https://user-images.githubusercontent.com/32839252/149626405-99ff199d-f572-4c50-9849-f11edd615d3c.png">
 
-![complex-5](https://user-images.githubusercontent.com/32839252/149626456-43471d30-f3b9-4357-bf56-4cb918fc61d2.png)
-
-![complex-6](https://user-images.githubusercontent.com/32839252/149626462-28f7fb55-3aa7-43f4-986d-ea2ab887dc81.png)
-
+![complex-7](https://user-images.githubusercontent.com/32839252/149667038-a75b633a-d95d-4216-bcdf-a5530472c9ed.png)
 
 The case starts when a claim is received. For this claim, a risk is assessed that can be high, medium, or low (F1). Then the knowledge worker can make a decision to accept or reject the claim based on the previously assessed risk (F2). Also, the decision can be to leave the claim in question. For a high risk, the claim can be rejected or in question. For a low risk, the claim can be accepted or in question. If the risk is medium, all decisions are allowed.
 
