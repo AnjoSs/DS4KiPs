@@ -2,9 +2,9 @@
 
 The following example describes the process of handling an insurance claim. The claim can be either disbursed or rejected according to the assessed risk of the claim and expert assessments. It can terminate, once the claim is either disbursed, or the rejection has been sent. The fragments, the corresponding data classes, and the data objects life-cycles can be senn below.
 
-<img width="969" alt="Screenshot 2022-01-16 at 16 49 27" src="https://user-images.githubusercontent.com/32839252/149667168-8404d561-2d11-4de1-b2d8-3ad1b97db708.png">
+<img width="946" alt="Screenshot 2022-01-18 at 14 42 08" src="https://user-images.githubusercontent.com/32839252/149950038-23f0ddcd-40ef-40cd-999f-d2d043e91c99.png">
 
-![complex-7](https://user-images.githubusercontent.com/32839252/149667038-a75b633a-d95d-4216-bcdf-a5530472c9ed.png)
+![complex-8](https://user-images.githubusercontent.com/32839252/149950009-49d6ab18-9ec8-4fd6-9ce4-9f3f5002a096.png)
 
 The case starts when a claim is received. For this claim, a risk is assessed that can be high, medium, or low (F1). Then the knowledge worker can make a decision to accept or reject the claim based on the previously assessed risk (F2). Also, the decision can be to leave the claim in question. For a high risk, the claim can be rejected or in question. For a low risk, the claim can be accepted or in question. If the risk is medium, all decisions are allowed.
 
