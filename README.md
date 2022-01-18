@@ -1,4 +1,4 @@
-# Planning Actions for Knowledge-intensive Processes
+# Decision Support for Knowledge-intensive Processes
 
 The following example describes the process of handling an insurance claim. The claim can be either disbursed or rejected according to the assessed risk of the claim and expert assessments. It can terminate, once the claim is either disbursed, or the rejection has been sent. The fragments, the corresponding data classes, and the data objects life-cycles can be senn below.
 
