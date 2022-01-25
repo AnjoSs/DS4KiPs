@@ -1,14 +1,12 @@
 # Decision Support for Knowledge-intensive Processes
 
-The following example describes the process of handling an insurance claim. The claim can be either disbursed or rejected according to the assessed risk of the claim and expert assessments. It can terminate, once the claim is either disbursed, or the rejection has been sent. The fragments, the corresponding data classes, and the data objects life-cycles can be senn below.
+The following example describes the process of handling an insurance claim. The claim can be either disbursed or rejected according to the assessed risk of the claim and expert assessments. It can terminate, once the claim is either approved or rejected. The fragments, the corresponding data classes, and the data objects life-cycles can be senn below.
 
 ![fragments_github-1](https://user-images.githubusercontent.com/32839252/150953738-42700394-ab05-4258-9e54-80e220fec36a.png)
 
 ![complex-8](https://user-images.githubusercontent.com/32839252/149950009-49d6ab18-9ec8-4fd6-9ce4-9f3f5002a096.png)
 
 The case starts when a claim is received. For this claim, a risk is assessed that can be high, medium, or low (F1). Then the knowledge worker can make a decision to accept or reject the claim based on the previously assessed risk (F2). Also, the decision can be to leave the claim in question. For a high risk, the claim can be rejected or in question. For a low risk, the claim can be accepted or in question. If the risk is medium, all decisions are allowed.
-
-If the claim is accepted, it can be disbursed (F8). If it is rejected, the rejection can be sent (F9). In both cases, the case can terminate afterwards.
 
 If the claim is in question, expert assessments of the claim can be requested (F3). For each requested assessment, such an expert assessment can then be created (F4). For each expert assessment, a review can be made (F5). It can approve or reject the single assessment. For a rejected assessment, an improved assessment can be created (F4). 
 
