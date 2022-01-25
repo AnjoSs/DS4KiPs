@@ -2,7 +2,7 @@
 
 The following example describes the process of handling an insurance claim. The claim can be either disbursed or rejected according to the assessed risk of the claim and expert assessments. It can terminate, once the claim is either disbursed, or the rejection has been sent. The fragments, the corresponding data classes, and the data objects life-cycles can be senn below.
 
-[fragments_github.pdf](https://github.com/AnjoSs/DS4KiPs/files/7932480/fragments_github.pdf)
+![fragments_github-1](https://user-images.githubusercontent.com/32839252/150953738-42700394-ab05-4258-9e54-80e220fec36a.png)
 
 ![complex-8](https://user-images.githubusercontent.com/32839252/149950009-49d6ab18-9ec8-4fd6-9ce4-9f3f5002a096.png)
 
